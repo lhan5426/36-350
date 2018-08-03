@@ -3,6 +3,3 @@ generate_data = function(n,p) {
   responses <- (as.vector(runif(n)))
   list(covariates,responses)
 }
-
-generate_data(5,5)
-
